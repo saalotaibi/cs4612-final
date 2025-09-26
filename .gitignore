@@ -1,0 +1,28 @@
+# Large dataset files
+data/*.fna.gz
+data/*.fasta
+data/*.fa
+data/*.fastq
+data/*
+
+# Build artifacts
+serial/genome_stats
+parallel_omp/genome_stats_omp
+distributed_mpi/genome_stats_mpi
+*.o
+*.a
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+
